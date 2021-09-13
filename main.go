@@ -7,8 +7,8 @@ import (
 
 func main() {
 	//Main variable used in the program and default values used if none are changed.
-	var rootserve string = "./"
-	var serveaddr string = "127.0.0.1:8080"
+	var rootserve string
+	var serveaddr string
 	var keyfile string
 	var certfile string
 
